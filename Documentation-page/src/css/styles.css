@@ -218,7 +218,10 @@ body::-webkit-scrollbar-thumb{
     padding: 0px 1.5rem;
 }
 
-
+.language-text{
+    background-color: #ccc;
+    padding: 5px;
+}
 
 
 footer{
