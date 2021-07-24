@@ -473,7 +473,6 @@
               <a
                 href="https://rickandmortyapi.com/api"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
               >
                 https://rickandmortyapi.com/api
               </a>
@@ -541,34 +540,28 @@
         <section class="main-section">
           <article>
             <h2 id="character">
-            
               Personaje
           </h2>
           <p>
-            
               Hay un total de
               <code class="language-text">671</code>
               caracteres ordenados por id.
           </p>
           </article>
           <article>
-            <h3 id="character-schema">
-            
+            <h3 id="character-schema">            
               Esquema de caracteres
           </h3>
           <table>
             <thead>
               <tr>
                 <th>
-                  
                     Clave
                 </th>
                 <th>
-                  
                     Tipo
                 </th>
                 <th>
-                  
                     Descripción
                 </th>
               </tr>
@@ -576,179 +569,143 @@
             <tbody>
               <tr>
                 <td>
-                  
                     identificación
                 </td>
                 <td>
-                  
                     En t
                 </td>
                 <td>
-                  
                     La identificación del personaje.
                 </td>
               </tr>
               <tr>
                 <td>
-                  
                     nombre
                 </td>
                 <td>
-                  
                     cuerda
                 </td>
                 <td>
-                  
                     El nombre del personaje.
                 </td>
               </tr>
               <tr>
                 <td>
-                  
                     estado
                 </td>
-                <td>
-                  
+                <td>                  
                     cuerda
                 </td>
-                <td>
-                  
+                <td>                  
                     El estado del personaje ('Vivo', 'Muerto' o
                       'Desconocido').
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     especies
                 </td>
-                <td>
-                  
+                <td>                  
                     cuerda
                 </td>
-                <td>
-                  
+                <td>                  
                     La especie del personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     tipo
                 </td>
-                <td>
-                  
+                <td>                  
                     cuerda
                 </td>
-                <td>
-                  
+                <td>                  
                     El tipo o subespecie del personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     género
                 </td>
-                <td>
-                  
+                <td>                  
                     cuerda
                 </td>
-                <td>
-                  
+                <td>                  
                     El género del personaje ('Femenino', 'Masculino',
                       'Sin género' o 'Desconocido').
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     origen
                 </td>
-                <td>
-                  
+                <td>                  
                     objeto
                 </td>
-                <td>
-                  
+                <td>                  
                     Nombre y enlace a la ubicación de origen del
                       personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     localización
                 </td>
-                <td>
-                  
+                <td>                  
                     objeto
                 </td>
-                <td>
-                  
+                <td>                  
                     Nombre y enlace al último punto final de ubicación
                       conocido del personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     imagen
                 </td>
-                <td>
-                  
+                <td>                  
                     cadena (url)
                 </td>
-                <td>
-                  
+                <td>                  
                     Enlace a la imagen del personaje. 
                     Todas las imágenes son de 300x300px y la mayoría son
-                      tomas medianas o retratos, ya que están destinadas a
-                      ser utilizadas como avatares.
+                    tomas medianas o retratos, ya que están destinadas a
+                    ser utilizadas como avatares.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     episodio
                 </td>
-                <td>
-                  
+                <td>                  
                     matriz (urls)
                 </td>
-                <td>
-                  
+                <td>                 
                     Lista de episodios en los que apareció este
-                      personaje.
+                    personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     url
                 </td>
-                <td>
-                  
+                <td>                  
                     cadena (url)
                 </td>
-                <td>
-                  
+                <td>                  
                     Enlace al punto final de la URL del personaje.
                 </td>
               </tr>
               <tr>
-                <td>
-                  
+                <td>                  
                     creado
                 </td>
-                <td>
-                  
+                <td>                  
                     cuerda
                 </td>
-                <td>
-                  
+                <td>                  
                     Hora a la que se creó el personaje en la base de
-                      datos.
+                    datos.
                 </td>
               </tr>
             </tbody>
@@ -756,12 +713,10 @@
           </article>
 
           <article>
-            <h3 id="get-all-characters">
-            
+            <h3 id="get-all-characters">            
               Obtener todos los personajes
           </h3>
-          <p>
-            
+          <p>   
               Puede acceder a la lista de caracteres utilizando el
               <code class="language-text">/character</code>
               punto final.
@@ -818,12 +773,10 @@
           </article>
           
           <article>
-            <h3 id="get-a-single-character">
-            
+            <h3 id="get-a-single-character">            
               Consigue un solo personaje
           </h3>
-          <p>
-            
+          <p>            
               Puede obtener un solo carácter agregando
               <code class="language-text">id</code>
               como parámetro:<code class="language-text">/character/2</code>
@@ -868,12 +821,10 @@
           </article>
           
          <article>
-           <h3 id="get-multiple-characters">
-            
+           <h3 id="get-multiple-characters">            
               Obtén varios personajes
           </h3>
-          <p>
-            
+          <p>            
               Puede obtener varios caracteres agregando una matriz de
               <code class="language-text">ids</code>
               como parámetro:
@@ -891,105 +842,88 @@
             <pre class="prettyprint linenums:4">
             <code>
               [
-  {
-    "id": 1,
-    "name": "Rick Sanchez",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (C-137)",
-      "url": "https://rickandmortyapi.com/api/location/1"
-    },
-    "location": {
-      "name": "Earth (Replacement Dimension)",
-      "url": "https://rickandmortyapi.com/api/location/20"
-    },
-    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/1",
-      "https://rickandmortyapi.com/api/episode/2",
-      // ...
-    ],
-    "url": "https://rickandmortyapi.com/api/character/1",
-    "created": "2017-11-04T18:48:46.250Z"
-  },
-  {
-    "id": 183,
-    "name": "Johnny Depp",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
-    "gender": "Male",
-    "origin": {
-      "name": "Earth (C-500A)",
-      "url": "https://rickandmortyapi.com/api/location/23"
-    },
-    "location": {
-      "name": "Earth (C-500A)",
-      "url": "https://rickandmortyapi.com/api/location/23"
-    },
-    "image": "https://rickandmortyapi.com/api/character/avatar/183.jpeg",
-    "episode": [
-      "https://rickandmortyapi.com/api/episode/8"
-    ],
-    "url": "https://rickandmortyapi.com/api/character/183",
-    "created": "2017-12-29T18:51:29.693Z"
-  }
-]
+                {
+                  "id": 1,
+                  "name": "Rick Sanchez",
+                  "status": "Alive",
+                  "species": "Human",
+                  "type": "",
+                  "gender": "Male",
+                  "origin": {
+                    "name": "Earth (C-137)",
+                    "url": "https://rickandmortyapi.com/api/location/1"
+                  },
+                  "location": {
+                    "name": "Earth (Replacement Dimension)",
+                    "url": "https://rickandmortyapi.com/api/location/20"
+                  },
+                  "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+                  "episode": [
+                    "https://rickandmortyapi.com/api/episode/1",
+                    "https://rickandmortyapi.com/api/episode/2",
+                    // ...
+                  ],
+                  "url": "https://rickandmortyapi.com/api/character/1",
+                  "created": "2017-11-04T18:48:46.250Z"
+                },
+                {
+                  "id": 183,
+                  "name": "Johnny Depp",
+                  "status": "Alive",
+                  "species": "Human",
+                  "type": "",
+                  "gender": "Male",
+                  "origin": {
+                    "name": "Earth (C-500A)",
+                    "url": "https://rickandmortyapi.com/api/location/23"
+                  },
+                  "location": {
+                    "name": "Earth (C-500A)",
+                    "url": "https://rickandmortyapi.com/api/location/23"
+                  },
+                  "image": "https://rickandmortyapi.com/api/character/avatar/183.jpeg",
+                  "episode": [
+                    "https://rickandmortyapi.com/api/episode/8"
+                  ],
+                  "url": "https://rickandmortyapi.com/api/character/183",
+                  "created": "2017-12-29T18:51:29.693Z"
+                }
+              ]
             </code>
           </pre>
           </div>
          </article>
           
          <article>
-          <h3 id="filter-characters">
-            
-              >Filtrar personajes
-          >
-        </h3>
-        <p>
-          
-              >También puede incluir filtros en la URL al incluir
-              parámetros de consulta adicionales. 
-              >Para comenzar a filtrar agregue un
-            
-          ><code class="language-text">?</code
-          >
-              >seguido de la consulta
-            
-          ><code class="language-text">&lt;query&gt;=&lt;value&gt;</code
-          >
+          <h3 id="filter-characters">            
+              Filtrar personajes
+          </h3>
+          <p>          
+            También puede incluir filtros en la URL al incluir
+            parámetros de consulta adicionales. 
+            Para comenzar a filtrar agregue un
+            <code class="language-text">?</code>
+            seguido de la consulta
+            <code class="language-text">&lt;query&gt;=&lt;value&gt;</code>
             . 
-              >Si desea encadenar varias consultas en la misma llamada,
-              utilice
-            
-          ><code class="language-text">&amp;</code
-          >
-              >seguido de la consulta.
-          >
-        </p>
+            Si desea encadenar varias consultas en la misma llamada,
+            utilice
+            <code class="language-text">&amp;</code>
+            seguido de la consulta.
+          </p>
         <p>
-          
-              >Por ejemplo, si desea verificar cuántos Ricks vivos
-              existen, simplemente agregue
-            
-          ><code class="language-text">?name=rick&amp;status=alive</code
-          >
-            a la URL.
-          >
+          Por ejemplo, si desea verificar cuántos Ricks vivos
+          existen, simplemente agregue
+          <code class="language-text"> ?name=rick&amp;status=alive</code>
+          a la URL.
         </p>
-        <p>
-          
-              >Parámetros disponibles:
-          >
-        </p>
+        <h4>
+          Parámetros disponibles:
+        </h4>
         <ul>
           <li>
             <code class="language-text">name</code>
               : filtrar por el nombre de pila.
-              >
           </li>
           <li>
             <code class="language-text">status</code>
@@ -1002,12 +936,10 @@
           <li>
             <code class="language-text">species</code>
               : filtrar por la especie dada.
-              >
           </li>
           <li>
             <code class="language-text">type</code>
               : filtrar por el tipo dado.
-              >
           </li>
           <li>
             <code class="language-text">gender</code>
@@ -1073,895 +1005,783 @@
         <!-- localizacion -->
 
         <section class="main-section">
-          <h2 id="location">
-            
-              Localización
-          </h2>
-          <p>
-            
-              Hay un total de
-              <code class="language-text">108</code>
-              ubicaciones ordenadas por id.
-          </p>
-          <h3 id="location-schema">
-            
+
+          <article>
+            <h2 id="location">            
+                Localización
+            </h2>
+            <p>            
+                Hay un total de
+                <code class="language-text">108</code>
+                ubicaciones ordenadas por id.
+            </p>
+          </article>
+          
+          <article>
+            <h3 id="location-schema">            
               Esquema de ubicación
-          </h3>
-          <table>
-            <thead>
-              <tr>
-                <th>
-                  
-                    Clave
-                </th>
-                <th>
-                  
-                    Tipo
-                </th>
-                <th>
-                  
-                    Descripción
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  
-                    identificación
-                </td>
-                <td>
-                  
-                    En t
-                </td>
-                <td>
-                  
-                    La identificación de la ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    nombre
-                </td>
-                <td>
-                  
-                    cuerda
-                </td>
-                <td>
-                  
-                    El nombre de la ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    tipo
-                </td>
-                <td>
-                  
-                    cuerda
-                </td>
-                <td>
-                  
-                    El tipo de ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    dimensión
-                </td>
-                <td>
-                  
-                    cuerda
-                </td>
-                <td>
-                  
-                    La dimensión en la que se encuentra la
+            </h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>                  
+                      Clave
+                  </th>
+                  <th>                  
+                      Tipo
+                  </th>
+                  <th>                  
+                      Descripción
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>                  
+                      identificación
+                  </td>
+                  <td>                  
+                      En t
+                  </td>
+                  <td>                  
+                      La identificación de la ubicación.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      nombre
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      El nombre de la ubicación.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      tipo
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      El tipo de ubicación.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      dimensión
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      La dimensión en la que se encuentra la
                       ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    residentes
-                </td>
-                <td>
-                  
-                    matriz (urls)
-                </td>
-                <td>
-                  
-                    Lista de personajes que han sido vistos por última
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      residentes
+                  </td>
+                  <td>                  
+                      matriz (urls)
+                  </td>
+                  <td>                  
+                      Lista de personajes que han sido vistos por última
                       vez en la ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    url
-                </td>
-                <td>
-                  
-                    cadena (url)
-                </td>
-                <td>
-                  
-                    Enlace al propio punto final de la ubicación.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    creado
-                </td>
-                <td>
-                  
-                    cuerda
-                </td>
-                <td>
-                  
-                    Hora a la que se creó la ubicación en la base de
-                      datos.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h3 id="get-all-locations">
-            
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      url
+                  </td>
+                  <td>                  
+                      cadena (url)
+                  </td>
+                  <td>                  
+                      Enlace al propio punto final de la ubicación.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      creado
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      Hora a la que se creó la ubicación en la base de
+                        datos.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article>
+            <h3 id="get-all-locations">            
               Obtener todas las ubicaciones
-          </h3>
-          <p>
-            
-              Puede acceder a la lista de ubicaciones utilizando el
-              <code class="language-text">/location</code>
-              punto final.
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/location</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json">  <span class="token property">"info"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-<span class="token property">"count"</span><span class="token operator">:</span> <span class="token number">108</span><span class="token punctuation">,</span>
-<span class="token property">"pages"</span><span class="token operator">:</span> <span class="token number">6</span><span class="token punctuation">,</span>
-<span class="token property">"next"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/location?page=2"</span><span class="token punctuation">,</span>
-<span class="token property">"prev"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token property">"results"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-<span class="token punctuation">{</span>
-  <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-  <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Earth"</span><span class="token punctuation">,</span>
-  <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Planet"</span><span class="token punctuation">,</span>
-  <span class="token property">"dimension"</span><span class="token operator">:</span> <span class="token string">"Dimension C-137"</span><span class="token punctuation">,</span>
-  <span class="token property">"residents"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token string">"https://rickandmortyapi.com/api/character/1"</span><span class="token punctuation">,</span>
-    <span class="token string">"https://rickandmortyapi.com/api/character/2"</span><span class="token punctuation">,</span>
-    <span class="token comment">// ...</span>
-  <span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/location/1"</span><span class="token punctuation">,</span>
-  <span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T12:42:04.162Z"</span>
-<span class="token punctuation">}</span>
-<span class="token comment">// ...</span>
-<span class="token punctuation">]</span>
-<span class="token punctuation">}</span></code></pre>
-          </div>
-          <h3 id="get-a-single-location">
-            
-              Obtenga una única ubicación
-          </h3>
-          <p>
-            
-              Puede obtener una única ubicación agregando
-              <code class="language-text">id</code>
-              como parámetro:<code class="language-text">/location/3</code>
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/location/3</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json"><span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Citadel of Ricks"</span><span class="token punctuation">,</span>
-<span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Space station"</span><span class="token punctuation">,</span>
-<span class="token property">"dimension"</span><span class="token operator">:</span> <span class="token string">"unknown"</span><span class="token punctuation">,</span>
-<span class="token property">"residents"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-<span class="token string">"https://rickandmortyapi.com/api/character/8"</span><span class="token punctuation">,</span>
-<span class="token string">"https://rickandmortyapi.com/api/character/14"</span><span class="token punctuation">,</span>
-<span class="token comment">// ...</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/location/3"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T13:08:13.191Z"</span>
-<span class="token punctuation">}</span></code></pre>
-          </div>
-          <h3 id="get-multiple-locations">
-            
+            </h3>
+            <p>            
+                Puede acceder a la lista de ubicaciones utilizando el
+                <code class="language-text">/location</code>
+                punto final.
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET https://rickandmortyapi.com/api/location
+              </code>
+            </pre>
+            </div>
+            <div class="code">
+              <pre class="prettyprint linenums:4">
+              <code>
+                "info": {
+                  "count": 108,
+                  "pages": 6,
+                  "next": "https://rickandmortyapi.com/api/location?page=2",
+                  "prev": null
+                },
+                "results": [
+                  {
+                    "id": 1,
+                    "name": "Earth",
+                    "type": "Planet",
+                    "dimension": "Dimension C-137",
+                    "residents": [
+                      "https://rickandmortyapi.com/api/character/1",
+                      "https://rickandmortyapi.com/api/character/2",
+                      // ...
+                    ],
+                    "url": "https://rickandmortyapi.com/api/location/1",
+                    "created": "2017-11-10T12:42:04.162Z"
+                  }
+                  // ...
+                ]
+              }
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="get-a-single-location">              
+                Obtenga una única ubicación
+            </h3>
+            <p>              
+                Puede obtener una única ubicación agregando
+                <code class="language-text">id</code>
+                como parámetro:<code class="language-text">/location/3</code>
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                https://rickandmortyapi.com/api/location
+              </code>
+            </pre>
+            </div>
+            <div class="code">
+              <pre class="prettyprint linenums:4">
+              <code>
+                "info": {
+                  "count": 108,
+                  "pages": 6,
+                  "next": "https://rickandmortyapi.com/api/location?page=2",
+                  "prev": null
+                },
+                "results": [
+                  {
+                    "id": 1,
+                    "name": "Earth",
+                    "type": "Planet",
+                    "dimension": "Dimension C-137",
+                    "residents": [
+                      "https://rickandmortyapi.com/api/character/1",
+                      "https://rickandmortyapi.com/api/character/2",
+                      // ...
+                    ],
+                    "url": "https://rickandmortyapi.com/api/location/1",
+                    "created": "2017-11-10T12:42:04.162Z"
+                  }
+                  // ...
+                ]
+              }
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="get-multiple-locations">
               Obtén múltiples ubicaciones
-          </h3>
-          <p>
-            
-              Puede obtener varias ubicaciones agregando una matriz de
-              <code class="language-text">ids</code>
-              como parámetro:
-              <code class="language-text">/location/[1,2,3]</code>
-              o<code class="language-text">/location/1,2,3</code>
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/location/3,21</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json"><span class="token punctuation">[</span>
-<span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Citadel of Ricks"</span><span class="token punctuation">,</span>
-<span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Space station"</span><span class="token punctuation">,</span>
-<span class="token property">"dimension"</span><span class="token operator">:</span> <span class="token string">"unknown"</span><span class="token punctuation">,</span>
-<span class="token property">"residents"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/8"</span><span class="token punctuation">,</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/14"</span><span class="token punctuation">,</span>
-  <span class="token comment">// ...</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/location/3"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T13:08:13.191Z"</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Testicle Monster Dimension"</span><span class="token punctuation">,</span>
-<span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Dimension"</span><span class="token punctuation">,</span>
-<span class="token property">"dimension"</span><span class="token operator">:</span> <span class="token string">"Testicle Monster Dimension"</span><span class="token punctuation">,</span>
-<span class="token property">"residents"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/7"</span><span class="token punctuation">,</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/436"</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/location/21"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-18T19:41:01.605Z"</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">]</span>
-</code></pre>
-          </div>
-          <h3 id="filter-locations">
-            
+            </h3>
+            <p>              
+                Puede obtener varias ubicaciones agregando una matriz de
+                <code class="language-text">ids</code>
+                como parámetro:
+                <code class="language-text">/location/[1,2,3]</code>
+                o<code class="language-text">/location/1,2,3</code>
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET https://rickandmortyapi.com/api/location/3,21
+              </code>
+            </pre>
+            </div>
+            <div class="code">
+              <pre class="prettyprint linenums:4">
+              <code>
+                [
+                  {
+                    "id": 3,
+                    "name": "Citadel of Ricks",
+                    "type": "Space station",
+                    "dimension": "unknown",
+                    "residents": [
+                      "https://rickandmortyapi.com/api/character/8",
+                      "https://rickandmortyapi.com/api/character/14",
+                      // ...
+                    ],
+                    "url": "https://rickandmortyapi.com/api/location/3",
+                    "created": "2017-11-10T13:08:13.191Z"
+                  },
+                  {
+                    "id": 21,
+                    "name": "Testicle Monster Dimension",
+                    "type": "Dimension",
+                    "dimension": "Testicle Monster Dimension",
+                    "residents": [
+                      "https://rickandmortyapi.com/api/character/7",
+                      "https://rickandmortyapi.com/api/character/436"
+                    ],
+                    "url": "https://rickandmortyapi.com/api/location/21",
+                    "created": "2017-11-18T19:41:01.605Z"
+                  }
+                ]
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="filter-locations">            
               Filtrar ubicaciones
-          </h3>
-          <p>
-            
-              Parámetros disponibles:
-          </p>
-          <ul>
-            <li>
-              <code class="language-text">name</code
-              
-                  >: filtrar por el nombre de pila.
-                >
-              >
-            </li>
-            <li>
-              <code class="language-text">type</code
-              
-                  >: filtrar por el tipo dado.
-                >
-              >
-            </li>
-            <li>
-              <code class="language-text">dimension</code
-              
-                  >: filtrar por la dimensión dada.
-                >
-              >
-            </li>
-          </ul>
-          <p>
-            
-              Si desea saber cómo utilizar las consultas, marque
-              <a href="#filter-characters"
-              >
-                aquí.
-              ></a>
-          </p>
+            </h3>
+            <p>              
+                Parámetros disponibles:
+            </p>
+            <ul>
+              <li>
+                <code class="language-text">name</code>
+                : filtrar por el nombre de pila.
+              </li>
+              <li>
+                <code class="language-text">type</code>
+                : filtrar por el tipo dado.
+              </li>
+              <li>
+                <code class="language-text">dimension</code>
+                : filtrar por la dimensión dada.
+              </li>
+            </ul>
+            <p>              
+                Si desea saber cómo utilizar las consultas, marque
+                <a href="#filter-characters">
+                  aquí.
+                </a>
+            </p>
+          </article>
+          
         </section>
 
         <!-- Episodios -->
 
         <section class="main-section">
-          <h2 id="episode">
-            
-              Episodio
-          </h2>
-          <p>
-            
-              Hay un total de
-              <code class="language-text">41</code>
-              episodios ordenados por id (que es, por supuesto, el orden
-                de los episodios)
-          </p>
-          <h3 id="episode-schema">
-            
-              Esquema del episodio
-          </h3>
-          <table>
-            <thead>
-              <tr>
-                <th>
-                  
-                    Clave
-                  >
-                </th>
-                <th>
-                  
-                    Tipo
-                  >
-                </th>
-                <th>
-                  
-                    Descripción
-                  >
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  
-                    identificación
-                  >
-                </td>
-                <td>
-                  
-                    En t
-                  >
-                </td>
-                <td>
-                  
-                    La identificación del episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    nombre
-                  >
-                </td>
-                <td>
-                  
-                    cuerda
-                  >
-                </td>
-                <td>
-                  
-                    El nombre del episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    fecha del aire
-                  >
-                </td>
-                <td>
-                  
-                    cuerda
-                  >
-                </td>
-                <td>
-                  
-                    La fecha de emisión del episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    episodio
-                  >
-                </td>
-                <td>
-                  
-                    cuerda
-                  >
-                </td>
-                <td>
-                  
-                    El código del episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    caracteres
-                  >
-                </td>
-                <td>
-                  
-                    matriz (urls)
-                  >
-                </td>
-                <td>
-                  
-                    Lista de personajes que se han visto en el
-                      episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    url
-                  >
-                </td>
-                <td>
-                  
-                    cadena (url)
-                  >
-                </td>
-                <td>
-                  
-                    Enlace al propio punto final del episodio.
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  
-                    creado
-                  >
-                </td>
-                <td>
-                  
-                    cuerda
-                  >
-                </td>
-                <td>
-                  
-                    Hora a la que se creó el episodio en la base de
-                      datos.
-                  >
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <h3 id="get-all-episodes">
-            
+
+          <article>
+            <h2 id="episode">            
+                Episodio
+            </h2>
+            <p>            
+                Hay un total de
+                <code class="language-text">41</code>
+                episodios ordenados por id (que es, por supuesto, el orden
+                  de los episodios)
+            </p>
+          </article>
+
+          <article>
+            <h3 id="episode-schema">            
+                Esquema del episodio
+            </h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>                  
+                      Clave
+                  </th>
+                  <th>                  
+                      Tipo
+                  </th>
+                  <th>                  
+                      Descripción
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>                  
+                      identificación
+                  </td>
+                  <td>                  
+                      En t
+                  </td>
+                  <td>                  
+                      La identificación del episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      nombre
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      El nombre del episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      fecha del aire
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      La fecha de emisión del episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      episodio
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      El código del episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      caracteres
+                  </td>
+                  <td>                  
+                      matriz (urls)
+                  </td>
+                  <td>                  
+                      Lista de personajes que se han visto en el
+                        episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      url
+                  </td>
+                  <td>                  
+                      cadena (url)
+                  </td>
+                  <td>                  
+                      Enlace al propio punto final del episodio.
+                  </td>
+                </tr>
+                <tr>
+                  <td>                  
+                      creado
+                  </td>
+                  <td>                  
+                      cuerda
+                  </td>
+                  <td>                  
+                      Hora a la que se creó el episodio en la base de
+                        datos.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+          
+          <article>
+            <h3 id="get-all-episodes">            
               Obtener todos los episodios
-          </h3>
-          <p>
-            
-              Puede acceder a la lista de episodios utilizando el
-              <code class="language-text">/episode</code>
-              punto final.
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/episode</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json"><span class="token punctuation">{</span>
-<span class="token property">"info"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-<span class="token property">"count"</span><span class="token operator">:</span> <span class="token number">41</span><span class="token punctuation">,</span>
-<span class="token property">"pages"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
-<span class="token property">"next"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/episode?page=2"</span><span class="token punctuation">,</span>
-<span class="token property">"prev"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token property">"results"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-<span class="token punctuation">{</span>
-  <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-  <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Pilot"</span><span class="token punctuation">,</span>
-  <span class="token property">"air_date"</span><span class="token operator">:</span> <span class="token string">"December 2, 2013"</span><span class="token punctuation">,</span>
-  <span class="token property">"episode"</span><span class="token operator">:</span> <span class="token string">"S01E01"</span><span class="token punctuation">,</span>
-  <span class="token property">"characters"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token string">"https://rickandmortyapi.com/api/character/1"</span><span class="token punctuation">,</span>
-    <span class="token string">"https://rickandmortyapi.com/api/character/2"</span><span class="token punctuation">,</span>
-    <span class="token comment">//...</span>
-  <span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/episode/1"</span><span class="token punctuation">,</span>
-  <span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T12:56:33.798Z"</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token comment">// ...</span>
-<span class="token punctuation">]</span>
-<span class="token punctuation">}</span></code></pre>
-          </div>
-          <h3 id="get-a-single-episode">
-            
+            </h3>
+            <p>              
+                Puede acceder a la lista de episodios utilizando el
+                <code class="language-text">/episode</code>
+                punto final.
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET https://rickandmortyapi.com/api/episode
+              </code>
+            </pre>
+            </div>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET {
+                  "info": {
+                    "count": 41,
+                    "pages": 3,
+                    "next": "https://rickandmortyapi.com/api/episode?page=2",
+                    "prev": null
+                  },
+                  "results": [
+                    {
+                      "id": 1,
+                      "name": "Pilot",
+                      "air_date": "December 2, 2013",
+                      "episode": "S01E01",
+                      "characters": [
+                        "https://rickandmortyapi.com/api/character/1",
+                        "https://rickandmortyapi.com/api/character/2",
+                        //...
+                      ],
+                      "url": "https://rickandmortyapi.com/api/episode/1",
+                      "created": "2017-11-10T12:56:33.798Z"
+                    },
+                    // ...
+                  ]
+                }
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="get-a-single-episode">            
               Obtén un solo episodio
-          </h3>
-          <p>
-            
-              Puede obtener un solo episodio agregando
-              <code class="language-text">id</code>
-              como parámetro:<code class="language-text">/episode/28</code>
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/episode/28</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json"><span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">28</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"The Ricklantis Mixup"</span><span class="token punctuation">,</span>
-<span class="token property">"air_date"</span><span class="token operator">:</span> <span class="token string">"September 10, 2017"</span><span class="token punctuation">,</span>
-<span class="token property">"episode"</span><span class="token operator">:</span> <span class="token string">"S03E07"</span><span class="token punctuation">,</span>
-<span class="token property">"characters"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-<span class="token string">"https://rickandmortyapi.com/api/character/1"</span><span class="token punctuation">,</span>
-<span class="token string">"https://rickandmortyapi.com/api/character/2"</span><span class="token punctuation">,</span>
-<span class="token comment">// ...</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/episode/28"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T12:56:36.618Z"</span>
-<span class="token punctuation">}</span></code></pre>
-          </div>
-          <h3 id="get-multiple-episodes">
-            
-              Obtén múltiples episodios
-          </h3>
-          <p>
-            
-              Puede obtener varios episodios agregando una matriz de
-              <code class="language-text">ids</code>
-              como parámetro:
-              <code class="language-text">/episode/[1,2,3]</code>
-              o<code class="language-text">/episode/1,2,3</code>
-          </p>
-          <div
-            class="restQuery__Wrapper-tkzubw-0 iQKEuF gatsby-highlight"
-            data-language="shell"
-          >
-            <pre
-              class="language-shell"<code class="language-shell"><span class="endpoint"><span class="request">GET </span>https://rickandmortyapi.com/api</span>/episode/10,28</code></pre>
-          </div>
-          <div class="gatsby-highlight" data-language="json">
-            <pre
-              class="language-json"<code class="language-json"><span class="token punctuation">[</span>
-<span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Close Rick-counters of the Rick Kind"</span><span class="token punctuation">,</span>
-<span class="token property">"air_date"</span><span class="token operator">:</span> <span class="token string">"April 7, 2014"</span><span class="token punctuation">,</span>
-<span class="token property">"episode"</span><span class="token operator">:</span> <span class="token string">"S01E10"</span><span class="token punctuation">,</span>
-<span class="token property">"characters"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/1"</span><span class="token punctuation">,</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/2"</span><span class="token punctuation">,</span>
-  <span class="token comment">// ...</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/episode/10"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T12:56:34.747Z"</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">{</span>
-<span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">28</span><span class="token punctuation">,</span>
-<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"The Ricklantis Mixup"</span><span class="token punctuation">,</span>
-<span class="token property">"air_date"</span><span class="token operator">:</span> <span class="token string">"September 10, 2017"</span><span class="token punctuation">,</span>
-<span class="token property">"episode"</span><span class="token operator">:</span> <span class="token string">"S03E07"</span><span class="token punctuation">,</span>
-<span class="token property">"characters"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/1"</span><span class="token punctuation">,</span>
-  <span class="token string">"https://rickandmortyapi.com/api/character/2"</span><span class="token punctuation">,</span>
-  <span class="token comment">// ...</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://rickandmortyapi.com/api/episode/28"</span><span class="token punctuation">,</span>
-<span class="token property">"created"</span><span class="token operator">:</span> <span class="token string">"2017-11-10T12:56:36.618Z"</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">]</span></code></pre>
-          </div>
-          <h3 id="filter-episodes">
-            
-              Filtrar episodios
-          </h3>
-          <p>
-            
-              Parámetros disponibles:
-          </p>
-          <ul>
-            <li>
-              <code class="language-text">name</code
-              
-                  >: filtrar por el nombre de pila.
-                >
-              >
-            </li>
-            <li>
-              <code class="language-text">episode</code
-              
-                  >: filtra por el código de episodio dado.
-                >
-              >
-            </li>
-          </ul>
-          <p>
-            
-              Si desea saber cómo utilizar las consultas, marque
-              <a href="#filter-characters"
-              >
-                aquí.
-              ></a>
-          </p>
+            </h3>
+            <p>              
+                Puede obtener un solo episodio agregando
+                <code class="language-text">id</code>
+                como parámetro:<code class="language-text">/episode/28</code>
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET https://rickandmortyapi.com/api/episode/28
+              </code>
+            </pre>
+            </div>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                {
+                  "id": 28,
+                  "name": "The Ricklantis Mixup",
+                  "air_date": "September 10, 2017",
+                  "episode": "S03E07",
+                  "characters": [
+                    "https://rickandmortyapi.com/api/character/1",
+                    "https://rickandmortyapi.com/api/character/2",
+                    // ...
+                  ],
+                  "url": "https://rickandmortyapi.com/api/episode/28",
+                  "created": "2017-11-10T12:56:36.618Z"
+                }
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="get-multiple-episodes">            
+                Obtén múltiples episodios
+            </h3>
+            <p>            
+                Puede obtener varios episodios agregando una matriz de
+                <code class="language-text">ids</code>
+                como parámetro:
+                <code class="language-text">/episode/[1,2,3]</code>
+                o<code class="language-text">/episode/1,2,3</code>
+            </p>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                GET https://rickandmortyapi.com/api/episode/10,28
+              </code>
+            </pre>
+            </div>
+            <div>
+              <pre class="prettyprint linenums:4">
+              <code>
+                [
+                  {
+                    "id": 10,
+                    "name": "Close Rick-counters of the Rick Kind",
+                    "air_date": "April 7, 2014",
+                    "episode": "S01E10",
+                    "characters": [
+                      "https://rickandmortyapi.com/api/character/1",
+                      "https://rickandmortyapi.com/api/character/2",
+                      // ...
+                    ],
+                    "url": "https://rickandmortyapi.com/api/episode/10",
+                    "created": "2017-11-10T12:56:34.747Z"
+                  },
+                  {
+                    "id": 28,
+                    "name": "The Ricklantis Mixup",
+                    "air_date": "September 10, 2017",
+                    "episode": "S03E07",
+                    "characters": [
+                      "https://rickandmortyapi.com/api/character/1",
+                      "https://rickandmortyapi.com/api/character/2",
+                      // ...
+                    ],
+                    "url": "https://rickandmortyapi.com/api/episode/28",
+                    "created": "2017-11-10T12:56:36.618Z"
+                  }
+                ]
+              </code>
+            </pre>
+            </div>
+          </article>
+          
+          <article>
+            <h3 id="filter-episodes">            
+                Filtrar episodios
+            </h3>
+            <p>            
+                Parámetros disponibles:
+            </p>
+            <ul>
+              <li>
+                <code class="language-text">name</code>
+                : filtrar por el nombre de pila.
+              </li>
+              <li>
+                <code class="language-text">episode</code>
+                : filtra por el código de episodio dado.
+              </li>
+            </ul>
+            <p>            
+                Si desea saber cómo utilizar las consultas, marque
+                <a href="#filter-characters">
+                  aquí.
+                </a>
+            </p>
+          </article>
+          
         </section>
 
         <!-- Librerias -->
 
         <section class="main-section">
-          <h2 id="libraries">
-            
+          <article>
+            <h2 id="libraries">            
               Bibliotecas
-          </h2>
-          <p>
-            
+            </h2>
+            <p>            
               Aquí encontrará una lista de bibliotecas auxiliares para
-                usar la API de Rick and Morty con su idioma preferido.
-          </p>
-          <h3 id="elixir">
-            
+              usar la API de Rick and Morty con su idioma preferido.
+            </p>
+          </article>
+          
+          <article>
+            <h3 id="elixir">            
               Elixir
-          </h3>
-          <p>
-            <a
-              href="https://github.com/l1h3r/ex_shla"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >ExShla - La envoltura API de Rick y Morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/l1h3r"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              >
+            </h3>
+            <p>
+              <a
+                href="https://github.com/l1h3r/ex_shla"
+                target="_blank">
+                ExShla - La envoltura API de Rick y Morty
+              </a>
+               de 
+              <a
+                href="https://github.com/l1h3r"
+                target="_blank">
                 l1h3r
-              ></a>
-          </p>
-          <h3 id="go">
-            
-              Ir
-          </h3>
-          <p>
-            <a
-              href="https://github.com/pitakill/rickandmortyapigowrapper"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >El cliente Rick and Morty API Go
-                >
-              ></a>
-               de <a
-              href="https://github.com/pitakill"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Leopoldo Caballero
-                >
-              ></a>
-          </p>
-          <h3 id="java">
-            
-              Java
-          </h3>
-          <p>
-            <a
-              href="https://github.com/adrianoluis/rickandmortyapi-java"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Cliente Java de la API de Rick y Morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/adrianoluis"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Adriano Rocha
-                >
-              ></a>
-          </p>
-          <h3 id="javascript">
-            
-              JavaScript
-          </h3>
-          <p>
-            <a
-              href="https://github.com/afuh/rick-and-morty-api-node"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >El cliente JavaScript de la API de Rick and Morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/afuh"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Simple Rick
-                >
-              ></a>
-          </p>
-          <h3 id="net">
-            
-              .NETO
-          </h3>
-          <ul>
-            <li>
+              </a>
+            </p>
+            <h3 id="go">            
+              Go
+            </h3>
+            <p>
               <a
-                href="https://github.com/bigdummyhead/rick.net"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                >
-                  >
-                    >Rick.Net
-                  </a
-              >
-                 de 
-              ><a
-                href="https://github.com/bigdummyhead"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                >
-                  >
-                    >BIGDummyHead
-                  </a
-              >
-            </li>
-            <li>
+                href="https://github.com/pitakill/rickandmortyapigowrapper"
+                target="_blank">
+              El cliente Rick and Morty API Go
+              </a>
+                de 
               <a
-                href="https://github.com/Carlj28/RickAndMorty.Net.Api"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                >
+                href="https://github.com/pitakill"
+                target="_blank">
+              Leopoldo Caballero
+              </a>
+            </p>
+            <h3 id="java">
+                Java
+            </h3>
+            <p>
+              <a
+                href="https://github.com/adrianoluis/rickandmortyapi-java"
+                target="_blank">
+              Cliente Java de la API de Rick y Morty
+              </a>
+              de 
+              <a
+                href="https://github.com/adrianoluis"
+                target="_blank">
+              Adriano Rocha
+              </a>
+            </p>
+            <h3 id="javascript">            
+                JavaScript
+            </h3>
+            <p>
+              <a
+                href="https://github.com/afuh/rick-and-morty-api-node"
+                target="_blank">
+              El cliente JavaScript de la API de Rick and Morty
+              </a>
+              de 
+              <a
+                href="https://github.com/afuh"
+                target="_blank">
+              Simple Rick
+              </a>
+            </p>
+            <h3 id="net">
+                .NET
+            </h3>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/bigdummyhead/rick.net"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer">
+                Rick.Net
+                </a>
+                de 
+                <a
+                  href="https://github.com/bigdummyhead"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer">
+                BIGDummyHead
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Carlj28/RickAndMorty.Net.Api"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
                   >
-                    >RickAndMorty.Net.Api
-                  </a
-              >
-                 por 
-              ><a
-                href="https://github.com/Carlj28"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                >
-                  >
-                    >Carlj28
-                  </a
-              >
-            </li>
-          </ul>
-          <h3 id="python">
-            
-              Pitón
-          </h3>
-          <p>
-            <a
-              href="https://github.com/curiousrohan/ramapi"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Implementación de Python para la API de Rick and
-                  Morty
-                >
-              ></a>
-               por <a
-              href="https://github.com/curiousrohan"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Rohan Hazra
-                >
-              ></a>
-          </p>
-          <h3 id="r">
-            
-              R
-          </h3>
-          <p>
-            <a
-              href="https://github.com/MikeJohnPage/mortyr"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              >
-                mortyr
-              ></a>
-               de <a
-              href="https://github.com/MikeJohnPage"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Mike Page
-                >
-              ></a>
-          </p>
-          <h3 id="ruby">
-            
-              Rubí
-          </h3>
-          <p>
-            <a
-              href="https://github.com/spielhoelle/rick-and-morty-gem"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >La gema API de Rick y Morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/spielhoelle"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Tommy Spielhoelle
-                >
-              ></a>
-          </p>
-          <h3 id="rust">
-            
-              Oxido
-          </h3>
-          <p>
-            <a
-              href="https://github.com/dshomoye/rick-and-morty"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >caja de rick-and-morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/dshomoye"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              >
-                dshomoye
-              ></a>
-          </p>
-          <h3 id="swift">
-            
-              Rápido
-          </h3>
-          <p>
-            <a
-              href="https://github.com/benjaminbruch/rick-morty-swift-api"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >El cliente rápido de la API de Rick y Morty
-                >
-              ></a>
-               de <a
-              href="https://github.com/benjaminbruch"
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              
-                  >Benjamin Bruch
-                >
-              ></a>
-          </p>
+                RickAndMorty.Net.Api
+                </a>
+                por 
+                <a
+                  href="https://github.com/Carlj28"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer">
+                Carlj28
+                </a>
+              </li>
+            </ul>
+            <h3 id="python">
+              Python
+            </h3>
+            <p>
+              <a
+                href="https://github.com/curiousrohan/ramapi"
+                target="_blank">
+              Implementación de Python para la API de Rick and
+              Morty
+              </a>
+              por 
+              <a
+                href="https://github.com/curiousrohan"
+                target="_blank">
+              Rohan Hazra
+              </a>
+            </p>
+            <h3 id="r">            
+                R
+            </h3>
+            <p>
+              <a
+                href="https://github.com/MikeJohnPage/mortyr"
+                target="_blank">
+              mortyr
+              </a>
+              de 
+              <a
+                href="https://github.com/MikeJohnPage"
+                target="_blank">
+              Mike Page
+              </a>
+            </p>
+            <h3 id="ruby">
+                Ruby
+            </h3>
+            <p>
+              <a
+                href="https://github.com/spielhoelle/rick-and-morty-gem"
+                target="_blank">
+              La gema API de Rick y Morty
+              </a>
+              de 
+              <a
+                href="https://github.com/spielhoelle"
+                target="_blank">
+              Tommy Spielhoelle
+              </a>
+            </p>
+            <h3 id="rust">
+              Rust
+            </h3>
+            <p>
+              <a
+                href="https://github.com/dshomoye/rick-and-morty"
+                target="_blank">
+              caja de rick-and-morty
+              </a>
+              de 
+              <a
+                href="https://github.com/dshomoye"
+                target="_blank">
+              dshomoye
+              </a>
+            </p>
+            <h3 id="swift">
+              Swift
+            </h3>
+            <p>
+              <a
+                href="https://github.com/benjaminbruch/rick-morty-swift-api"
+                target="_blank">
+              El cliente rápido de la API de Rick y Morty
+              </a>
+              de 
+              <a
+                href="https://github.com/benjaminbruch"
+                target="_blank">
+              Benjamin Bruch
+              </a>
+            </p>
+          </article>
         </section>
-      </div>
+    
     </main>
 
-    <footer>
-      <p>todos los derechos reservados
-      </p>
-    </footer>
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   </body>
 </html>
